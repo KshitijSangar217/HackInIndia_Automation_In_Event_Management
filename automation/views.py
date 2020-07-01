@@ -23,20 +23,17 @@ def returndata(request):
         fs = FileSystemStorage()
         fs.save(uploaded_file.name, uploaded_file)
 
-        s = smtplib.SMTP("smtp.gmail.com", 587)
-        s.starttls()  # Traffic encryption
-        s.login("kshitijsangarofficial@gmail.com", "myfirstloverituu@mom.com")
-
         # Variable Declarations
         emailID = "kshitijsangarofficial@gmail.com"
         pwd = "myfirstloverituu@mom.com"
         subject = "New Video's UP"
-        htmlfile_loc = "FinalTemplate.html"
-        # NAME : Make sure that the name column is named "NAME" and email as "EMAIL" in the excelfile
-        thumbnaillink = "https://miro.medium.com/max/1400/1*Bhqdl1UvZsuXrXbiE-ujsw.png"
-        videotitle = 'Remove ScrollBar in SwiftUI List'
-        videodescription = "When we create custom Views in SwiftUI, Sometimes Scroll Bar doesn't look nice. So, in this video, I am going to show you how to remove the scroll bar in SwiftUI List."
-        videolink = 'https://youtu.be/oPp4htuqDOs'
+        organization_name = "TechWiz"
+        logo_url = "https://legiit-service.s3.amazonaws.com/6e212075e04d1616b06a5e1398e10053/3ea07b3abe6146b58e53d68653e3a61f.jpg"
+        description = "This is team techwiz and we are here to send automatic emails to all you participants."
+
+        s = smtplib.SMTP("smtp.gmail.com", 587)
+        s.starttls()  # Traffic encryption
+        s.login(emailID, pwd)
 
         file = pd.ExcelFile(uploaded_file)
         for sheet in file.sheet_names:
@@ -46,8 +43,8 @@ def returndata(request):
                 # EDITING the NAME here
 
                 #directory_path = os.path.join(BASE_DIR,"automation/templates/EmailTemplate1.html")
-                with open(os.path.join(BASE_DIR,"automation/templates/ExampleTemplate1.html"), 'r', encoding='utf8') as file:
-                    html_Content = str(file.read().replace('{videodescription}', videodescription).replace('{username}',df1['NAME'][i]).replace('{videolink}', videolink).replace('{videotitle}', videotitle).replace('{thumbnaillink}',thumbnaillink))
+                with open(os.path.join(BASE_DIR,"automation/templates/ExampleTemplate2.html"), 'r', encoding='utf8') as file:
+                    html_Content = str(file.read().replace('{username}', df1['NAME'][i]).replace('{logo_url}', logo_url).replace('{organization_name}', organization_name)).replace('{description}',description)
                 msg = EmailMessage()
                 msg['Subject'] = subject
                 msg['From'] = emailID  # ===========================
@@ -59,4 +56,4 @@ def returndata(request):
         data = "sent to all"
         os.path.join(BASE_DIR, "automation/templates/ExampleTemplate1.html")
         print('\n\n\n\n\n\n\n\n mails sent\n\n\n')
-    return render(request, 'home.html', {'data':data})
+    return render(request, 'home.html', {'data': data})
