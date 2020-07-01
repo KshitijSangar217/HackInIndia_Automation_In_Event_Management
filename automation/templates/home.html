@@ -7,7 +7,13 @@
 <body>
 <h1>HELLO this is it</h1>
 
-<form action=""></form>
+<form method="post" action="{% url 'execute_email' %}">
+    {% csrf_token %}
+    <button type="submit" id="submit_email_data">Run</button>
+</form>
+{% if data %}
+{{ data }}
+{% endif %}
 
 </body>
 </html>
