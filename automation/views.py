@@ -56,4 +56,5 @@ def returndata(request):
         data = "sent to all"
         os.path.join(BASE_DIR, "automation/templates/ExampleTemplate1.html")
         print('\n\n\n\n\n\n\n\n mails sent\n\n\n')
+        os.remove(os.path.join(BASE_DIR,"excelmedia/",uploaded_file.name))
     return render(request, 'home.html', {'data': data})

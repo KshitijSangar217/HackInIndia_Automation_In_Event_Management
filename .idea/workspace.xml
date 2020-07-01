@@ -2,33 +2,22 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="744c9183-df3b-4e18-a227-dc1026ea04cc" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/automation/templates/ExampleTemplate1.html" beforeDir="false" afterPath="$PROJECT_DIR$/automation/templates/ExampleTemplate1.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/automation/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/automation/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/excelmedia/DemoExcelFile.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/excelmedia/DemoExcelFile.xlsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/excelmedia/DemoExcelFile_0OsmNt4.xlsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/excelmedia/DemoExcelFile_4OgMzuE.xlsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/excelmedia/DemoExcelFile_5yRzkMg.xlsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/excelmedia/DemoExcelFile_65cQvP5.xlsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/excelmedia/DemoExcelFile_6ByqzTf.xlsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/excelmedia/DemoExcelFile_7C6Qtnh.xlsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/excelmedia/DemoExcelFile_Bxi9s4l.xlsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/excelmedia/DemoExcelFile_D8n1BiF.xlsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/excelmedia/DemoExcelFile_HrOzC1Q.xlsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/excelmedia/DemoExcelFile_NAvPokw.xlsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/excelmedia/DemoExcelFile_QP4uTIj.xlsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/excelmedia/DemoExcelFile_Wcnvgql.xlsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/excelmedia/DemoExcelFile_WxTrv95.xlsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/excelmedia/DemoExcelFile_XtXrpRp.xlsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/excelmedia/DemoExcelFile_acT0qC7.xlsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/excelmedia/DemoExcelFile_be9rZ32.xlsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/excelmedia/DemoExcelFile_bytTwPg.xlsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/excelmedia/DemoExcelFile_gBiOcKB.xlsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/excelmedia/DemoExcelFile_ntWbt15.xlsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/excelmedia/DemoExcelFile_rjKiN7G.xlsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/excelmedia/DemoExcelFile_sHY5k6Z.xlsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/excelmedia/DemoExcelFile_zZ5zo2P.xlsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/hackathon_automate/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/hackathon_automate/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/excelmedia/DemoExcelFile.xlsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/excelmedia/DemoExcelFile_0I0zc2L.xlsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/excelmedia/DemoExcelFile_7y1U28y.xlsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/excelmedia/DemoExcelFile_ADEcufs.xlsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/excelmedia/DemoExcelFile_DQJUsIV.xlsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/excelmedia/DemoExcelFile_E7bOv4K.xlsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/excelmedia/DemoExcelFile_GujTC7y.xlsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/excelmedia/DemoExcelFile_OKELmVw.xlsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/excelmedia/DemoExcelFile_PlTYCTB.xlsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/excelmedia/DemoExcelFile_S9O9XnX.xlsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/excelmedia/DemoExcelFile_XXgtxUs.xlsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/excelmedia/DemoExcelFile_absbZFc.xlsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/excelmedia/DemoExcelFile_bueJ11b.xlsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/excelmedia/DemoExcelFile_sCVdP95.xlsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/excelmedia/DemoExcelFile_yzjx1xP.xlsx" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -115,8 +104,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/automation/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="247">
-              <caret line="50" column="43" lean-forward="true" selection-start-line="50" selection-start-column="43" selection-end-line="50" selection-end-column="43" />
+            <state relative-caret-position="88">
+              <caret line="59" column="55" lean-forward="true" selection-start-line="59" selection-start-column="55" selection-end-line="59" selection-end-column="55" />
               <folding>
                 <element signature="e#0#35#0" expanded="true" />
               </folding>
@@ -280,7 +269,7 @@
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Version Control" />
       <window_info anchor="bottom" id="Python Console" />
-      <window_info active="true" anchor="bottom" id="Terminal" visible="true" weight="0.15877862" />
+      <window_info active="true" anchor="bottom" id="Terminal" visible="true" weight="0.42290077" />
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
@@ -411,8 +400,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/automation/views.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="247">
-          <caret line="50" column="43" lean-forward="true" selection-start-line="50" selection-start-column="43" selection-end-line="50" selection-end-column="43" />
+        <state relative-caret-position="88">
+          <caret line="59" column="55" lean-forward="true" selection-start-line="59" selection-start-column="55" selection-end-line="59" selection-end-column="55" />
           <folding>
             <element signature="e#0#35#0" expanded="true" />
           </folding>
