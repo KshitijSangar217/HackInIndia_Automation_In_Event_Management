@@ -7,9 +7,10 @@
 <body>
 <h1>HELLO this is it</h1>
 
-<form method="post" action="{% url 'execute_email' %}">
+<form method="post" action="{% url 'execute_email' %}" enctype="multipart/form-data">
     {% csrf_token %}
-    <button type="submit" id="submit_email_data">Run</button>
+    <input type="file" name="document">
+    <button type="submit">Run</button>
 </form>
 {% if data %}
 {{ data }}
